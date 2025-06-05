@@ -1,0 +1,20 @@
+@font-face {
+  font-family: font1;
+  src: url(../fonts/font1);
+}
+@font-face {
+  font-family: font2;
+  src: url(../fonts/font2);
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0px auto;
+  background-color: #111111;
+  color: white;
+  overflow-x: hidden;
+}
