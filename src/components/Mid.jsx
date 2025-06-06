@@ -1,7 +1,5 @@
 import React from 'react'
 import Button from './button/Button'
-import { gsap } from 'gsap'
-import { useGSAP } from '@gsap/react'
 const Mid = () => {
 
   
