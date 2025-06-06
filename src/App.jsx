@@ -7,7 +7,7 @@ import Card from "./components/Card";
 import Mid from "./components/Mid";
 import DataNav from "./components/DataNav";
 import MainData from "./components/MainData";
-import Button from "./components/button/button";
+// import Button from "./components/button/button";
 import DigitalProduct from "./components/DigitalProduct";
 import UIUX from "./components/UIUX";
 import ProductDesign from "./components/ProductDesign";
