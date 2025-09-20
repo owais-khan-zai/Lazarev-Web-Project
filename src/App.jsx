@@ -18,6 +18,11 @@ import Faqs from "./components/afterScroll/Faqs";
 import Foot1 from "./components/footer/Foot1";
 import LastBottom from "./components/footer/LastBottom";
 import MainDataNavi from "./components/MainDataNavi";
+import video1 from './assets/card1.webm'
+import video2 from './assets/card2.webm'
+import data1 from './assets/data1.mp4'
+import data2 from './assets/data2.mp4'
+
 const App = () => {
   // ye sra code become a client walay button ka hy
   let content1 = useRef();
@@ -184,21 +189,21 @@ const App = () => {
               head="$500M+"
               para="In funding secured for our clients"
               no="/01"
-              video="./assests/card1.webm"
+              video={video1}
             />
             <Card
               className="lg:col-span-2"
               head="120+"
               para="Awards backing our excellence"
               no="/02"
-              video="./assests/card2.webm"
+              video={video2}
             />
             <Card
               className="lg:col-span-2"
               head="2015"
               para="Founded, 9 years of experience"
               no="/03"
-              video="./assests/card1.webm"
+              video={video1}
             />
             <Card
               className=" lg:col-span-3 "
@@ -224,7 +229,7 @@ const App = () => {
               <MainData
                 head="Accern.Rhea design case study"
                 para="Founded by accern a front runner in no code nlp rhea stand as a personalized AI Associate designed to streamline FinTech workflows."
-                video="./assests/data1.mp4"
+                video={data1}
               />
               {/* ye button mobile sy ly kr md tk ki screens mn show hoga  */}
               <div className="buttonWraper w-full bg-[#111111] sticky top-[73%] mt-[-4rem] left-[0%] py-[3.5vw] sm:py-[1.5rem] md:py-[1.4rem] z-10 lg:hidden">
@@ -239,7 +244,7 @@ const App = () => {
               <MainData
                 head="Pika AI Design Case Study"
                 para="Pika Ai is a new and better search engine that harnesses AI technology and hekos people find the most relevant and interesting information from across the web."
-                video="./assests/data2.mp4"
+                video={data2}
               />
             </div>
           </div>

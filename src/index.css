@@ -1,10 +1,10 @@
 @font-face {
   font-family: font1;
-  src: url(../fonts/font1);
+  src: url(../public/fonts/font1);
 }
 @font-face {
   font-family: font2;
-  src: url(../fonts/font2);
+  src: url(../public/fonts/font2);
 }
 *{
   box-sizing: border-box;

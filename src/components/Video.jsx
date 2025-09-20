@@ -2,6 +2,9 @@ import React, { useRef, useState } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import FullScreenVideo from "./FullScreenVideo";
+import mainThumbnail from '../assets/main-thumbnail.webp'
+import frontVideo from '../assets/front-video.mp4'
+
 
 const Video = () => {
   let img = useRef();
@@ -53,14 +56,14 @@ const Video = () => {
       </div>
       <img
         ref={img}
-        src="./assests/main-thumbnail.webp"
+        src={mainThumbnail}
         alt="main-thumbnail"
         className="h-full w-full cursor-pointer  object-cover absolute top-0 left-0 z-4"
       />
       <video
         ref={video}
         onClick={ClickHandler}
-        src="./assests/front-video.mp4"
+        src={frontVideo}
         autoPlay
         muted
         loop

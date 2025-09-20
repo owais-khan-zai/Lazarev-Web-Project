@@ -1,6 +1,7 @@
 import React, { useEffect, useLayoutEffect } from "react";
 import gsap from "gsap";
 import { useRef } from "react";
+import video from '../assets/back-video.mp4'
 
 const FullScreenVideo = ({onClose}) => {
   let animate = useRef();
@@ -36,7 +37,7 @@ const FullScreenVideo = ({onClose}) => {
       className="w-full h-full bg-[#111111] transform scale-x-[0.4] scale-y-[0] translate-y-[150px] flex justify-center items-center fixed top-0 left-0 z-50"
     >
       <video
-        src="./assests/back-video.mp4"
+        src={video}
         autoPlay
         loop
         muted
